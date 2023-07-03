@@ -26,8 +26,8 @@ function App() {
       {/* <Route path="/" element={<Login/>}/>
       <Route path='/Home' element={<Protected islogged={islogged}> <Home/></Protected>}/>
       <Route path='/' element={<Login/>}/> */}
-        <Route path='/' element={<Home/>}/>
-        <Route path='/people' element={<Allpeople/>}/>
+        {/* <Route path='/' element={<Home/>}/> */}
+        <Route path='/' element={<Allpeople/>}/>
         <Route path='/action' element={<Action/>}/>
         <Route path='/action/:id' element={<Action/>}/>
         <Route path='/student'element={<Student/>}/>
