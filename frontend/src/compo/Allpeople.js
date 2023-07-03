@@ -21,7 +21,8 @@ export default function Allpeople()
     return(
         <>
       <Space direction="vertical" style={{ width: '100%' }} >
-       <Button type="primary" className='createbutton' danger onClick={()=>navigate('/action')} block>CREATE
+       <Button type="primary" className='createbutton' danger onClick={()=>navigate(`/action`, {
+                        state: { isView: false }})} block>CREATE
        </Button>
        </Space>
        <br/>

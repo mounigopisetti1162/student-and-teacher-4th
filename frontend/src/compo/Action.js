@@ -149,7 +149,7 @@ const location=useLocation();
     {formik.errors.avatar && !formik.isSubmitting ? formik.errors.avatar : ""}
 
 
-    <TextField disabled={location.state.isView}  id="outlined-basic" color="secondary"  margin="dense"  variant="outlined" type="text" name='field' value={form.field}  onChange={handleChange} className='mb-3'  placeholder="'Enter pricing"/>
+    <TextField disabled={location.state.isView}  id="outlined-basic" color="secondary"  margin="dense"  variant="outlined" type="text" name='field' value={form.field}  onChange={handleChange} className='mb-3'  placeholder="'Enter designation"/>
     <br/>
     {formik.errors.field && !formik.isSubmitting ? formik.errors.field : ""}
 
