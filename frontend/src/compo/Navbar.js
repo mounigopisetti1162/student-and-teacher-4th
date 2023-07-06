@@ -19,7 +19,7 @@ const items1 = ['ALL People', 'STUDENTS', 'Teacher'].map((key) => ({
   onClick:()=>
   {if(key==='ALL People')
 {
-navigate('/people')
+navigate('/')
 }
 else if(key==='STUDENTS')
 {
